@@ -249,7 +249,7 @@ function splitBlockAndAddNextOneIfOverlaps() {
   const overlap = size - overhangSize;
 
   if (overlap > 0) {
-    cutBox(topLayer, overlap, size, delta);
+    // cutBox(topLayer, overlap, size, delta);
 
     // Overhang
     const overhangShift = (overlap / 2 + overhangSize / 2) * Math.sign(delta);
